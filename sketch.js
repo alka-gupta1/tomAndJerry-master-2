@@ -2,9 +2,9 @@ var canvas,bg;
 var together;
 var tom, tomImg1,tomImg2;
 var jerry, jerryImg1,jerryImg2;
-
+var sample;
 function preload() {
-    bg = loadImage("images/garden.png");
+    bckg = loadImage("images/garden.png");
     tomImg1= loadAnimation("images/tomOne.png");
     tomImg2=loadAnimation("images/tomTwo.png","images/tomThree.png");
     tomImg3= loadAnimation("images/tomFour.png");
@@ -29,7 +29,7 @@ function setup(){
 
 function draw() {
 
-    background(bg);
+    background(bckg);
 
     if(tom.x - jerry.x < (tom.width - jerry.width)/2)
     { 

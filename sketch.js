@@ -2,7 +2,7 @@ var canvas,bg;
 var together;
 var tom, tomImg1,tomImg2;
 var jerry, jerryImg1,jerryImg2;
-var sample;
+
 function preload() {
     bckg = loadImage("images/garden.png");
     tomImg1= loadAnimation("images/tomOne.png");
